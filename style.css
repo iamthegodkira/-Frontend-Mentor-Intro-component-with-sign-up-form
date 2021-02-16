@@ -12,7 +12,7 @@
 
 body {
   background-color: var(--red-color);
-  background-image: url(./images/bg-intro-mobile.png);
+  background-image: url(./bg-intro-mobile.png);
   font-size: 1rem;
 }
 
@@ -83,6 +83,9 @@ body {
 }
 
 @media only screen and (min-width: 740px) {
+  body {
+    background-image: url(./bg-intro-desktop.png);
+  }
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
